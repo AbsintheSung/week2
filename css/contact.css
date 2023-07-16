@@ -1,0 +1,35 @@
+.contactme-b{
+    background:linear-gradient(rgba(5, 0, 20, 1),rgba(1, 2, 30, 0.89));
+}
+.contactme-container{
+    padding: 96px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contactme-left{
+    width: 657px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.contactme-left> h2 {
+    font-size: 64px;
+    line-height: 96px;
+    color:#FFFFFF
+}
+.contactme-left>img{
+    vertical-align: middle;
+}
+
+
+.contactme-right{
+    width:526px;
+    height: 162px;
+    display: flex;
+    justify-content: space-between;
+}
+.contactme-right > img:hover{
+    cursor: pointer;
+}

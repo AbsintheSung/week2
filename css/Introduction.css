@@ -1,0 +1,32 @@
+.section-b{
+    background-image: url('../images/background-img.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ .section-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 160px 0px;
+ }
+ .section-left{
+    width: 526px;
+ }
+ .section-left>h2{
+    font-size: 64px;
+    line-height: 96px;
+    color: #FFFFFF;
+ }
+ .section-left>p{
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 36px;
+    color: #FFFFFF;
+ }
+ .section-left>div{
+    margin-top: 36px;
+ }
+.section-right{
+    width: 746px;
+    display: flex;
+    justify-content: space-between;
+}

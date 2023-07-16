@@ -1,0 +1,32 @@
+.header-b{
+    background-color: #000000;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header .people-img{
+    margin-top: 72px;
+    vertical-align: middle;
+}
+.people-title{
+    margin-left: 24px;
+}
+.titlebox{
+    margin: 232px 0px;
+    width: 636px;
+}
+.title{
+    font-size: 64px;
+    line-height: 96px;
+    color: #FFFFFF;
+
+}
+.title-name{
+    font-size: 128px;
+    line-height: 192px;
+    text-align: right;
+    color: #00FFA3;
+
+}
