@@ -1,3 +1,9 @@
+        
+.container{
+    max-width: 1296px;
+    margin: 0 auto;
+}
+
 /* 2個一樣的按鈕 */
 .button{
     float: right;
