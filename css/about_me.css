@@ -13,7 +13,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-content: space-between
+    align-content: space-between;
 }
 .aboutme-left-card{
     width: 274px;
@@ -23,16 +23,18 @@
 .aboutme-left-card:last-child{
     margin-bottom: 8px;
 }
-.aboutme-left-card > h3{
+.card-no,
+.card-title{
     margin-top: 4px;
     font-size: 20px;
     line-height: 30px;
     color: #15161D;
 }
-.aboutme-left-card > h3:first-child{
+.card-no:first-child,
+.card-title:first-child{
     margin-top:0px;
 }
-.aboutme-left-card > p{
+.card-text{
     margin-top: 4px;
     font-size: 16px;
     line-height: 24px;

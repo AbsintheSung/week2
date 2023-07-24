@@ -1,23 +1,24 @@
-.navigation-b{
+/* .navigation-b{
     background-color: #000000;
-}
+} */
 .navigation{
     padding: 40px 0px 0px 0px;
 }
 .navigation ul{
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
+    justify-content: space-between;
     align-items: center;
 }
 .navigation ul li{
-    width: 306px;
+    /* width: 306px; */
     font-size: 16px;
-    line-height: 24px;
+    /* line-height: 24px; */
     color: #D1D1D1;
 }
 .navigation ul li:last-child{
     text-align: right;
-    width: 196px;
+    /* width: 196px; */
 }
 
 .navigation ul li:hover{

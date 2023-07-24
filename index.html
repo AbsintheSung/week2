@@ -14,10 +14,13 @@
     <link rel="stylesheet" type="text/css" href="./css/about_me.css" >
     <link rel="stylesheet" type="text/css" href="./css/contact.css" >
     <link rel="stylesheet" type="text/css" href="./css/myproject.css" >
+    <link rel="stylesheet" type="text/css" href="./css/footer.css" >
+    <link rel="stylesheet" type="text/css" href="./css/universal.css" >
     <style>
         body{      
             font-family: 'Bruno Ace SC', cursive;
-            font-weight: 400;
+            /* line-height: 1.5; */
+            /* font-weight: 400; */
         }
         
         .container{
@@ -26,37 +29,42 @@
         }
 
         /* 2個一樣的按鈕 */
-        .button{
-            float: right;
-            width: 185px;
-            height: 48px;
+        /* .button{ */
+            /* float: right; */
+            /* width: 185px; */
+            /* height: 48px; */
+            /* padding: 12px 24px;
             border-radius: 32px;
             background-color:#FFFFFF ;
-        }
-        .button > div{
+            display: flex;
+            justify-content: center;
+            align-items: center; */
+        /* } */
+        /* .button > div{
             width: 109px;
             display: inline-block;
             font-size: 16px;
             line-height: 24px;
             margin: 12px 4px 12px 24px;
-        }
-        .arrow-pic{
+        } */
+        /* .arrow-pic{
             vertical-align: middle;
+            margin-left: 4px;
         }
 
         .button:hover{
-            cursor: pointer;
+            background-color: #7e7e7e;
         }
 
         .titlebox:after{
             content: '';
             display: block;
             clear: both;
-        }
+        } */
 
 
         /*footer*/
-        .footer{
+        /* .footer{
             background: #000000;
         }
         .foorter-container{
@@ -67,38 +75,45 @@
             line-height: 24px;
             text-align: center;
             color:#FFFFFF;
-        }
+        } */
     </style>
 </head>
 <body>
-    <div class="navigation-b">
+    <div class="bg-black">
         <div class="container">
             <nav class="navigation">
                 <ul>
                     <li>WILLIAM LEE</li>
                     <li>BASED IN TAIWAN</li>
-                    <li>CURRENTLY FRONT END ENGINEER AT HEXSCHOOL</li>
+                    <li>CURRENTLY FRONT <br>END ENGINEER AT HEXSCHOOL</li>
                     <li>CONTACT ME</li>
                 </ul>
             </nav>
         </div>
     </div>
 
-    <div class="header-b">
+    <div class="bg-black">
         <div class="container">
             <header class="header">
                 <div class="people-img">
-                    <img class="pic" src="./images/people.png">
+                    <img class="pic" alt="大頭照" src="./images/people.png">
                 </div>
                 <div class="people-title ">
                     <div class="titlebox ">
-                        <h2 class="title">Hi</h2>
+                        <!-- <h2 class="title">Hi</h2>
                         <h2 class="title">I’m a front-end developer</h2>
-                        <h1 class="title-name">William</h1>
-                        <div class="button">
-                            <div>contact me</div>
+                        <h1 class="title-name">William</h1> -->
+
+                        <h1 class="title-name">
+                            <span>Hi<br>
+                            I’m a front-end developer</span>
+                            William
+                        </h1>
+
+                        <a href="#" class="button">
+                            contact me
                             <img  class="arrow-pic" src="./images/arrow_outward.png">
-                        </div>
+                        </a>
                     </div>
                 </div>
             </header>
@@ -113,15 +128,15 @@
                     <h2>Introduction</h2>
                     <p>Hi, I'm William Lee, a Front-End Developer with a passion for building beautiful and responsive websites that provide an optimal user experience.</p>
                     <div>
-                        <img src='./images/sparkle-sm.png'>
-                        <img src='./images/sparkle-sm.png'>
-                        <img src='./images/sparkle-sm.png'>
+                        <img alt="Introductionw圖片1" src='./images/sparkle-sm.png'>
+                        <img alt="Introductionw圖片2" src='./images/sparkle-sm.png'>
+                        <img alt="Introductionw圖片3" src='./images/sparkle-sm.png'>
                     </div>
                 </div>
                 <div class="section-right">
-                    <img src="./images/sparkle.png">
-                    <img src="./images/photographer.png">
-                    <img src="./images/people-2.png">
+                    <img alt="Introductionw圖片4" src="./images/sparkle.png">
+                    <img alt="Introductionw圖片5" src="./images/photographer.png">
+                    <img alt="Introductionw圖片6" src="./images/people-2.png">
                 </div>
 
         </div>
@@ -132,29 +147,28 @@
         <div class="container aboutme-container">
 
             
-
-                <div class="aboutme-left">
-                    <div class="aboutme-left-card">
-                        <h3>01</h3>
-                        <h3>Attention to Detail</h3>
-                        <p>Meticulous code analysis and optimization.</p>
-                    </div>
-                    <div class="aboutme-left-card">
-                        <h3>02</h3>
-                        <h3>Adaptability</h3>
-                        <p>Swift learning of new technologies.</p>
-                    </div>
-                    <div class="aboutme-left-card">
-                        <h3>03</h3>
-                        <h3>Problem Solver</h3>
-                        <p>Identifying and resolving issues.</p>
-                    </div>
-                    <div class="aboutme-left-card">
-                        <h3>04</h3>
-                        <h3>Team Player</h3>
-                        <p>Collaborates and shares ideas.</p>
-                    </div>
-                </div>
+                <ol class="aboutme-left">
+                    <li class="aboutme-left-card">
+                        <p class="card-no">01</p>
+                        <p class="card-title">Attention to Detail</p>
+                        <p class="card-text">Meticulous code analysis and optimization.</p>
+                    </li>
+                    <li class="aboutme-left-card">
+                        <p class="card-no">02</p>
+                        <p class="card-title">Adaptability</p>
+                        <p class="card-text">Swift learning of new technologies.</p>
+                    </li>
+                    <li class="aboutme-left-card">
+                        <p class="card-no">03</p>
+                        <p class="card-title">Problem Solver</p>
+                        <p class="card-text">Identifying and resolving issues.</p>
+                    </li>
+                    <li class="aboutme-left-card">
+                        <p class="card-no">04</p>
+                        <p class="card-title">Team Player</p>
+                        <p class="card-text">Collaborates and shares ideas.</p>
+                    </li>
+                </ol>
 
                 <div class="aboutme-right">
                     <h2>About Me</h2>
@@ -175,14 +189,21 @@
                 
                 <div class="contactme-left">
                     <h2>CONTACT ME</h2>
-                    <img src="./images/trending_flat_black_24dp 1.png">
+                    <img alt="指向箭頭" src="./images/trending_flat_black_24dp 1.png">
                 </div>
 
-                <div class="contactme-right">
-                    <img src="./images/discord.png">
-                    <img src="./images/instagram.png">
-                    <img src="./images/message.png">
-                </div>
+                <ul class="contactme-right">
+                    <li>
+                        <img alt="DC圖片" src="./images/discord2.png">
+                    </li>
+                    <li>
+                        <img alt="IG圖片" src="./images/instagram.png">
+                    </li>
+                    <li>
+                        <img alt="message圖片" src="./images/message.png">
+                    </li>
+                    
+                </ul>
 
            
         </div>
@@ -194,23 +215,23 @@
                 <h2>My Projects</h2>
                 <div class="myprojects-text">
                     <div class="myprojects-text-left">
-                        <img src="./images/Rectangle 10.png">
+                        <img alt="project圖片1" src="./images/Rectangle 10.png">
                     </div>
                     <div class="myprojects-text-right">
                         <div class="right-item">
-                            <img src='./images/Rectangle 15.png'>
+                            <img alt="project圖片2" src='./images/Rectangle 15.png'>
                             <div>
                                 <p>I've worked on a variety of websites, including e-commerce sites, blogs, and landing pages. I take pride in creating clean, efficient, and user-friendly code.</p>
-                                <div class="button">
-                                    <div>SEE MORE</div>
-                                    <img  class="arrow-pic" src="./images/arrow_outward-white.png">
-                                </div>
+                                <a href="#" class="button">
+                                    SEE MORE
+                                    <img  alt="project圖片3" class="arrow-pic" src="./images/arrow_outward-white.png">
+                                </a>
                             </div>
                         </div>
 
                         <div class="right-item">
-                            <img src="./images/Rectangle 14.png">
-                            <img src="./images/Rectangle 29.png">
+                            <img alt="project圖片4" src="./images/Rectangle 14.png">
+                            <img alt="project圖片5" src="./images/Rectangle 29.png">
                         </div>
                     </div>
                 </div>
@@ -218,7 +239,7 @@
         </div>
     </div>
 
-    <div class="footer">
+    <div class="footer bg-black">
         <div class="container foorter-container">
             <p class="footer-text">all rights reserved @hexschool2023</p>
         </div>

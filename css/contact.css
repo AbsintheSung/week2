@@ -9,21 +9,35 @@
 }
 .contactme-left{
     width: 657px;
-    height: 100px;
+    /* height: 100px; */
     display: flex;
     justify-content: space-between;
-    
+    /* align-items: center; */
 }
 .contactme-left> h2 {
     font-size: 64px;
-    line-height: 96px;
+    /* line-height: 96px; */
     color:#FFFFFF
 }
+
 .contactme-left>img{
-    vertical-align: middle;
+    max-width: 100%;
+    /* vertical-align: middle; */
 }
 
-
+.contactme-right > li{
+    width: 162px;
+    height: 162px;
+    
+}
+.contactme-right > li > img{
+    max-width: 100%;
+    /* vertical-align: middle; */
+}
+.contactme-right > li > img:hover{
+    box-shadow: 0px 0px 16px 3px rgba(144, 148, 255, 0.9);
+    border-radius: 40px;
+}
 .contactme-right{
     width:526px;
     height: 162px;

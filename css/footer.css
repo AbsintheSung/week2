@@ -1,0 +1,13 @@
+ /*footer*/
+ /* .footer{
+    background: #000000;
+} */
+.foorter-container{
+    padding: 40px 0px;
+}
+.footer-text{
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color:#FFFFFF;
+}

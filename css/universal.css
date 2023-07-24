@@ -1,0 +1,31 @@
+/* 2個一樣的按鈕 */
+.button{
+    float: right;
+    /* width: 185px; */
+    /* height: 48px; */
+    padding: 12px 24px;
+    border-radius: 32px;
+    background-color:#FFFFFF ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow-pic{
+    vertical-align: middle;
+    margin-left: 4px;
+}
+
+.button:hover{
+    background-color: #7e7e7e;
+}
+
+.titlebox:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.bg-black{
+    background-color: #000000;
+}
